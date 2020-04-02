@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>IBox.qml</file>
+        <file>IMenuItem.qml</file>
+        <file>IDivider.qml</file>
+        <file>Homescreen.qml</file>
+        <file>Screen2.qml</file>
+        <file>IText.qml</file>
+    </qresource>
+</RCC>
