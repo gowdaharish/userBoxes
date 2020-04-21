@@ -7,11 +7,15 @@ Tested with Qt 5.12.1, 5.12.4 and 5.12.5
 * macOS 10.13 or later  
 eventhough it was not tested on linux distros it shouldn't be a problem to run the app on any latest linux distors.
 
-## Building  
-1. make build directory
-2. run cmake from the build directory relative to the src directory
-3. run make from the build directory for the target ex: all
-4. run the binary 
+## Building
+NOTE: you should point to the Qt5 include directories, which you can do by exporting the `Qt5_DIR` variable.
+Ex: Qt5_DIR="/Users/bob/Qt/5.12.7/clang_64/lib/cmake/Qt5"
+
+1. makdir build
+2. cd build
+3. cmake ../.
+4. make all
+5. execute generated application binary
 
 ## Features of the app  
 1. Add a random API user
